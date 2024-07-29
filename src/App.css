@@ -1,0 +1,354 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Header */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url(/public/img/Spice_banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* .banner__context {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #990;
+} */
+
+.banner__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /* color: #990; */
+}
+/* .container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+.banner__text {
+  width: 400px;
+}
+
+.banner__text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+}
+.banner__text p {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 20px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
+.banner__btn {
+  margin-top: 35px;
+}
+
+.btn-smart {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-style:oblique;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+  background: #0979bd;
+}
+.btn-smart:hover{
+  color: #fff;
+  background-color: transparent;
+}
+/*=========== Navbar Section ============ */
+.navbar {
+   /* background-color: aqua; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* margin-top:; */
+}
+
+.navbar__text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  width: 40%;
+}
+.logo img {
+  width: 200px;
+  height: auto;
+  /* image: url(/public/img/Logo.png); */
+}
+.navbar__ul {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/* =============== About Section================ */
+.about {
+  padding: 80px 0;
+  /* background-color:; */
+}
+ 
+.about h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.about p {
+  font-size: 28px;
+  color: #fff;
+  font-style: italic;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
+
+.about__btn {
+  margin-top: 35px;
+  color: white;
+}
+.about__img {
+  width: 100%;
+  /* overflow: hidden; */
+  /* display: flex; */
+}
+
+.about__img img {
+  width: 100%;
+}
+/* ================ spices Section================ */
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+
+.write{
+  text-decoration: none; 
+  color:#000;
+}
+.write:hover{
+  color: #19467e;
+}
+
+.bg-img{
+  background: url(/public/img/Variety of Spices Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ================ */
+#menu .nav-pills .nav-link {
+    background-color: #0979bd;  
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #fff;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #F58d17;
+    color: #ffffff;
+} 
+
+.menu-item .stars {
+    color: #F58d17;
+}
+
+.menu-item-1{
+  padding-bottom: 10px;
+}
+
+/* ===========Shadow========== */
+.shadow-on-hover {
+  transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* =======Button======== */
+.btn-6-2{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    width: 50%;
+    margin-right: 0px;
+    /* height: 30px; */
+    border-color: #222;
+}
+.btn-6{
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    width: 50%;
+    margin-right: 0px;
+    /* height: 30px; */
+    border-color: #222;
+}
+.btn-6-2:hover{
+    background-color: #222;
+    border-color: #222;
+    color: #fff;
+    width: 50%;
+    border-radius: 25px;
+    /* font-size: 20px; */
+}
+.btn-6:hover{
+    background-color: #fff;
+    border-color: #222;
+    color: #222;
+    width: 50%;
+    border-radius: 25px;
+    /* font-size: 20px; */
+}
+.btn-brand {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    /* border-color: #19467e; */
+    background-color: #0979bd;
+    border-radius: 20px;
+}
+.btn-brand:hover {
+    /* border-color: #19467e; */
+    background-color: #19467e;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* ===============Feedback================== */
+.container-btn-brand{
+  color: #fff;
+  background-color: #4a95db;
+  border-color: transparent;
+  border-radius: 20px;
+  width: 40%;
+  height: 50px;
+}
+.container-btn-brand:hover{
+  color: #fff;
+  background-color: transparent;
+}
+
+/* ===== Contact section ========= */
+.input{
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 40px;
+  width: 90%;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-left: 70px;
+  padding-left: 10px;
+  /* margin-left: 500px; */
+  /* height: 12px; */
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.contact{
+  background: url(/public/img/Spice_banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .form-control{
+  color: #fff; 
+  background-color: transparent;
+    border-color: #222;
+    width: 90%;
+    border-color: #fff;
+    border-radius: 20px; 
+}
+    */
+
+.textarea{
+  height: 100px;
+  width: 90%;
+  border-radius: 10px;
+  border-color: transparent;
+  margin-left: 70px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.button{
+  font-size: 20px;
+  background-color: #0979bd;
+  width: 60%;
+  height: 50px;
+  color: #fff;
+  margin-left: 20%;
+  border-color: transparent;
+  border-radius: 20px;
+}
+.button:hover{
+  font-size: 20px;
+    /* border-radius: 30px; */
+    background-color: transparent;
+    width: 60%;
+    height: 50px;
+    /* justify-content: center; */
+    /* border-color: #222; */
+    color: #fff;
+    /* align-content: center; */
+}
+
+/* ======Footer====== */
+.bg-cover {
+  background: #0979bd;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.footer-top {
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+
+.foot{
+  text-decoration: none;
+  color: #19467e;
+}
+.foot:hover{
+  color: #222;
+}
